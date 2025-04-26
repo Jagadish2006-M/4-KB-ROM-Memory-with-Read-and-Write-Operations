@@ -55,6 +55,8 @@ module rom_memory (
         data_out <= rom[address];
     end
 endmodule
+![Uploading Screenshot 2025-04-26 143907.png…]()
+
 
 
 Testbench for 4KB ROM Memory
