@@ -32,8 +32,8 @@ In this design, we will implement a 4KB ROM. Since ROM is typically read-only, w
 
 4KB = 4096 Bytes = 4096 x 8 bits
 The address width for 4KB memory is 12 bits (2^12 = 4096).
-
-
+##Verilog Code For 4KB_Rom
+```
 // rom_memory.v
 module rom_memory (
     input wire clk,
@@ -55,12 +55,13 @@ module rom_memory (
         data_out <= rom[address];
     end
 endmodule
+```
 ![Uploading Screenshot 2025-04-26 143907.png…]()
 
 
 
-Testbench for 4KB ROM Memory
-
+##Testbench for 4KB ROM Memory
+```
 // rom_memory_tb.v
 `timescale 1ns / 1ps
 
@@ -118,8 +119,8 @@ module rom_memory_tb;
     end
 
 endmodule
-
+```
 ![4kb rom tb](https://github.com/user-attachments/assets/85514ba1-1903-4ecb-aa9b-0a2b2ed2435a)
 
-Conclusion
+##Conclusion
 In this experiment, a 4KB ROM memory with read and write operations was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the memory operations and observing the output waveforms. The experiment demonstrates how to implement memory operations in Verilog, effectively modeling both the reading and writing processes for ROM.
