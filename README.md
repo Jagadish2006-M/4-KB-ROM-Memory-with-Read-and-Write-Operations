@@ -56,7 +56,7 @@ module rom_memory (
     end
 endmodule
 ```
-![Uploading Screenshot 2025-04-26 143907.png…]()
+![4kb rom](https://github.com/user-attachments/assets/076616e5-6d52-484d-b958-1eacce4e0248)
 
 
 
