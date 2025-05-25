@@ -119,6 +119,7 @@ module rom_memory_tb;
 
 endmodule
 
+![4kb rom tb](https://github.com/user-attachments/assets/85514ba1-1903-4ecb-aa9b-0a2b2ed2435a)
 
 Conclusion
 In this experiment, a 4KB ROM memory with read and write operations was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the memory operations and observing the output waveforms. The experiment demonstrates how to implement memory operations in Verilog, effectively modeling both the reading and writing processes for ROM.
